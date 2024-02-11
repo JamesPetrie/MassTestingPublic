@@ -158,7 +158,6 @@ ui <- fluidPage(useShinyjs(),
                   )
                   
                   
-                  #Todo: show peak image with peak viral load and time to peak, describe how figure generated
                 )
 )
 

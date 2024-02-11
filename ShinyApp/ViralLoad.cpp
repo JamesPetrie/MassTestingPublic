@@ -6,17 +6,6 @@ using namespace Rcpp;
 #include <memory>
 
 
-// done - step 1: run model from R, plot cases per day
-// done - step 2: add risk of transmission based on viral load
-// done - step 3: verify contact tracing working
-// done - step 4: make hourly instead of daily
-// step 5: add checks at each timestep time since last test, symptoms,  contact tracing, queue of test results
-// step 6: add parameters for success rate of various steps
-// step 7: change strategy based on time and case count
-// step 8: return number of undetected infectious days, tests per person, number quarantined, number isolated
-// optional: make it faster?
-
-
 
 // computes probability of infection for a typical contact given viral load
 // [[Rcpp::export]]
